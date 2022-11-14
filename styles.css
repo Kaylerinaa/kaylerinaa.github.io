@@ -1,0 +1,38 @@
+
+body {
+background-image: url(gold.png);
+background-size: cover;
+font-family:'Times New Roman', Times, serif;
+}
+
+.tip-form,#billTotal, #totalBillWithTip,.form-group, #tipAmount.form-control,.cardcard-bodytext-centermt-5{
+    color:goldenrod;
+    background-color: hsl(55, 67%, 80%);
+    border-color: goldenrod;
+    font-style: italic;
+    font-weight: 300;
+    font-size: large;
+}
+
+.input-group-addon{
+    background-color: lightgoldenrodyellow;
+    font-weight:300;
+    font-style: italic;
+    border: solid 2px;
+    border-color: goldenrod;
+    font-size: large;
+}
+
+h1, h5{
+    font-weight: bolder;
+    font-style: oblique;
+    color: forestgreen;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    cursor: pointer;
+  }
+
+hr{
+    font-weight: bolder;
+}
