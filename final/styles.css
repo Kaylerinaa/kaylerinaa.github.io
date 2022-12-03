@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(76, 145, 76);
+}
+td img{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border: 3px solid rgb(64, 126, 64);
+    display: block;
+    margin: 0px auto;
+
+}
+table, td, th{
+    padding: 10px;
+    background-color:rgb(134, 199, 134) ;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 600px;
+
+}
+h1{
+    color: white;
+}
+caption{
+    color: white;
+    text-align: center;
+    caption-side: bottom;
+    margin: 10px;
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: darkgreen;
+}
